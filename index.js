@@ -26,8 +26,8 @@ new Promise(function(next){
                 console.log(error,"\nRetrying in 2s...");
                 setTimeout(getsessid(next),2000);
             }else{
-                cred.sessid=/"sessionid".+?value="([^"]+?)">/i.exec(body)[1];
-                console.log("Session ID:"+sessid);
+                cred.sessionid=/"sessionid".+?value="([^"]+?)">/i.exec(body)[1];
+                console.log("Session ID:"+cred.sessionid);
                 next();
             }
         });
