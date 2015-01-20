@@ -1,0 +1,18 @@
+{
+  "name": "proxylogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1upon0",
+  "license": "ISC",
+  "dependencies": {
+    "fiber": "^1.0.4",
+    "fibers": "^1.0.5",
+    "promise": "^6.1.0",
+    "read": "^1.0.5",
+    "request": "^2.51.0"
+  }
+}
