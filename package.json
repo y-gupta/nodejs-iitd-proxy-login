@@ -9,7 +9,9 @@
   "author": "1upon0",
   "license": "Apache 2.0",
   "dependencies": {
+    "keypress": "^0.2.1",
     "promise": "^6.1.0",
+    "prompt": "^0.2.14",
     "read": "^1.0.5",
     "request": "^2.51.0"
   }
